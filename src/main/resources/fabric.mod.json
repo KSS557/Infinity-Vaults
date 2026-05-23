@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "infinityvaults",
 	"version": "${version}",
-	"name": "Infinite Vault",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Infinite Vaults",
+	"description": "Set up the Vault so that you can open it again after a while. The first item to drop will be the one that was displayed when you opened it.",
 	"authors": [
 		"KSS557"
 	],
