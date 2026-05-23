@@ -1,0 +1,6 @@
+{
+  "infinityvaults.comand.vault.notfound" : "§cVault not found",
+  "infinityvaults.comand.server.notfound" : "§cServerData not found",
+  "infinityvaults.comand.vault.clear.player" : "§aVault cleared for player:",
+  "infinityvaults.comand.vault.clear.allplayers" : "§aThe Vault has been cleared for all players"
+}
