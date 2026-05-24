@@ -2,5 +2,6 @@
   "infinityvaults.comand.vault.notfound" : "§cХранилище не найдено",
   "infinityvaults.comand.server.notfound" : "§cДанные сервера не найдены",
   "infinityvaults.comand.vault.clear.player" : "§aХранилище очищено для игрока:",
-  "infinityvaults.comand.vault.clear.allplayers" : "§aХранилище очищено для всех игроков"
+  "infinityvaults.comand.vault.clear.allplayers" : "§aХранилище очищено для всех игроков",
+  "infinityvaults.comand.vault.replace" : "§aХранилище полностью заменено"
 }

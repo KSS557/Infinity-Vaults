@@ -175,7 +175,7 @@ object ReplaceVaultsCommand {
             pos, oldState, newState, Block.UPDATE_ALL
         )
 
-        source.sendSuccess({ Component.translatable("") }, true)
+        source.sendSuccess({ Component.translatable("infinityvaults.comand.vault.replace") }, true)
 
         return 1
     }
