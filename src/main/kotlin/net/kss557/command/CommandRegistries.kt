@@ -6,6 +6,7 @@ object CommandRegistries {
 
     fun registerCommands() {
         CommandRegistrationCallback.EVENT.register(ClearVaultsCommand::register)
+        CommandRegistrationCallback.EVENT.register(ReplaceVaultsCommand::register)
     }
 
 }
