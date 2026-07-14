@@ -199,6 +199,22 @@ class SimpleConfig private constructor(
         }
     }
 
+    fun set(key: String, value: String) {
+        config[key] = value
+    }
+
+    fun save() {
+        try {
+            PrintWriter(request.file, Charsets.UTF_8).use { writer ->
+                for ((key, value) in config) {
+                    writer.println("$key=$value")
+                }
+            }
+        } catch (e: Exception) {
+            LOGGER.error("Failed to save config '${request.filename}'!", e)
+        }
+    }
+
     fun delete(): Boolean {
 
         LOGGER.warn(

@@ -3,7 +3,6 @@ package net.kss557.command
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.context.CommandContext
 import com.mojang.brigadier.exceptions.CommandSyntaxException
-import net.kss557.InfinityVaults
 import net.kss557.VaultsAccess
 import net.minecraft.commands.CommandBuildContext
 import net.minecraft.commands.CommandSourceStack
@@ -40,8 +39,6 @@ object ClearVaultsCommand {
         } else {
             null
         }
-
-        InfinityVaults.LOGGER.info(targetPlayer?.name?.string)
 
         val pos = try {
 

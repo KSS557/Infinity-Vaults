@@ -38,5 +38,23 @@ public class VaultsUnlockMixin {
         ItemStack displayed = sharedData.getDisplayItem();
         if (displayed.isEmpty()) return;
         itemsToEject.addLast(displayed);
+        itemsToEject.removeFirst();
     }
+
+   /* private static List<ItemStack> newItemsToEject(List<ItemStack> itemsToEject, ItemStack displayed) {
+        for (Iterator<ItemStack> iterator = itemsToEject.iterator(); iterator.hasNext(); ) {
+
+            ItemStack stack = iterator.next();
+
+            if (ItemStack.isSameItemSameComponents(stack, displayed)) {
+                iterator.remove();
+                itemsToEject.addLast(displayed);
+                return itemsToEject;
+            }
+        }
+
+        itemsToEject.addLast(displayed);
+        itemsToEject.removeFirst();
+        return itemsToEject;
+    }*/
 }

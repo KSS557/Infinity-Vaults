@@ -121,9 +121,7 @@ object ReplaceVaultsCommand {
 
         level.setBlock(pos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL)
 
-        val newState: BlockState =
-            Blocks.VAULT.defaultBlockState().setValue(VaultBlock.FACING, facing).setValue(VaultBlock.STATE, state)
-                .setValue(VaultBlock.OMINOUS, newOminous)
+        val newState: BlockState = Blocks.VAULT.defaultBlockState().setValue(VaultBlock.FACING, facing).setValue(VaultBlock.STATE, state).setValue(VaultBlock.OMINOUS, newOminous)
 
         level.setBlock(pos, newState, Block.UPDATE_ALL)
 

@@ -3,6 +3,21 @@
   "infinityvaults.comand.server.notfound" : "§cServerData not found",
   "infinityvaults.comand.vault.clear.player" : "§aVault cleared for player:",
   "infinityvaults.comand.vault.clear.allplayers" : "§aThe Vault has been cleared for all players",
-  "infinityvaults.comand.vault.replace" : "§aThe Vault has been completely replaced"
-
+  "infinityvaults.comand.vault.replace" : "§aThe Vault has been completely replaced",
+  "infinityvaults.command.getitem.notfoundkey": "§cRequired key not found",
+  "infinityvaults.command.getitem.dropdisplayeditem.off": "§cDrop displayed item is disabled in config",
+  "infinityvaults.command.getitem.isempty": "§cVault is empty",
+  "infinityvaults.command.getitem.searching": "§eSearching for the item...",
+  "infinityvaults.command.getitem.success": "§aVault opened successfully!",
+  "infinityvaults.command.getitem.failed": "§cFailed to open vault",
+  "infinityvaults.command.getitem.timeout": "§cTimed out waiting for the item",
+  "infinityvaults.command.getitem.disabled": "§eGetItem disabled: stopped looking at vault",
+  "infinityvaults.command.getitem.toofar": "§cToo far from vault",
+  "infinityvaults.command.config.get": "§6Config:\n§7  cooldown: §f%1$s\n§7  dropdisplayeditem: §f%2$s",
+  "infinityvaults.command.config.cooldown.set": "§aCooldown set to: §f%1$s",
+  "infinityvaults.command.config.dropdisplayeditem.set": "§aDrop displayed item set to: §f%1$s",
+  "infinityvaults.command.config.set": "§aSet §f%1$s §ato §f%2$s",
+  "infinityvaults.command.config.notfound": "§cConfig setting not found",
+  "infinityvaults.command.config.invalid.bool": "§cInvalid value for §f%1$s§c: expected true or false",
+  "infinityvaults.command.config.invalid.long": "§cInvalid value for §f%1$s§c: expected a number"
 }

@@ -3,5 +3,21 @@
   "infinityvaults.comand.server.notfound" : "§cДанные сервера не найдены",
   "infinityvaults.comand.vault.clear.player" : "§aХранилище очищено для игрока:",
   "infinityvaults.comand.vault.clear.allplayers" : "§aХранилище очищено для всех игроков",
-  "infinityvaults.comand.vault.replace" : "§aХранилище полностью заменено"
+  "infinityvaults.comand.vault.replace" : "§aХранилище полностью заменено",
+  "infinityvaults.command.getitem.notfoundkey": "§cНужный ключ не найден",
+  "infinityvaults.command.getitem.dropdisplayeditem.off": "§cВыпадение отображающего предмета отключено в конфиге",
+  "infinityvaults.command.getitem.isempty": "§cХранилище пустое",
+  "infinityvaults.command.getitem.searching": "§eПоиск предмета...",
+  "infinityvaults.command.getitem.success": "§aХранилище успешно открыто!",
+  "infinityvaults.command.getitem.failed": "§cНе удалось открыть хранилище",
+  "infinityvaults.command.getitem.timeout": "§cВремя ожидания предмета истекло",
+  "infinityvaults.command.getitem.disabled": "§eGetItem отключён: вы отвернулись от хранилища",
+  "infinityvaults.command.getitem.toofar": "§cСлишком далеко от хранилища",
+  "infinityvaults.command.config.get": "§6Конфиг:\n§7  кулдаун: §f%1$s\n§7  выпадение_отображаемого: §f%2$s",
+  "infinityvaults.command.config.cooldown.set": "§aКулдаун установлен: §f%1$s",
+  "infinityvaults.command.config.dropdisplayeditem.set": "§aВыпадение отображаемого предмета: §f%1$s",
+  "infinityvaults.command.config.set": "§aУстановлено §f%1$s §a= §f%2$s",
+  "infinityvaults.command.config.notfound": "§cНастройка не найдена",
+  "infinityvaults.command.config.invalid.bool": "§cНеверное значение для §f%1$s§c: нужно true или false",
+  "infinityvaults.command.config.invalid.long": "§cНеверное значение для §f%1$s§c: нужно число"
 }
